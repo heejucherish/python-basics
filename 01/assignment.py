@@ -41,10 +41,9 @@ print(a)
 #swap
 x = 10
 y = 20
-print('====== swap ======')
+print('====== before swap ======')
 print(x,y)
-#
-# 코드를 짜서
-#
+temp = y
+y = temp
 print('======= after swap ======')
 print(x,y)
