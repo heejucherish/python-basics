@@ -43,7 +43,6 @@ x = 10
 y = 20
 print('====== before swap ======')
 print(x,y)
-temp = y
-y = temp
+temp = x
 print('======= after swap ======')
 print(x,y)
